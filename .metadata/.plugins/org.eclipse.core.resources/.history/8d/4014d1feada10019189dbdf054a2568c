@@ -51,17 +51,7 @@ public class clienteModel {
 		QuantidadeMalas = quantidadeMalas;
 	}
 	
-	@Override
-	public String toString() {
-		StringBuilder modelo = new StringBuilder();
-		
-		modelo.append("Nome: " + this.getNome() + "\n");
-		modelo.append("Email: " + this.getEmail() + "\n");
-		modelo.append("Idade: " + this.getIdade() + "\n");
-		modelo.append("Quantidade de malas: " + this.getQuantidadeMalas());
-		
-		return modelo.toString();
-	}
+	to
 	
 	
 	
